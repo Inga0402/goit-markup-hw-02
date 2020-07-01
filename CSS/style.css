@@ -1,14 +1,34 @@
-
+:root {
+    --primary-text-color:
+    --title-text-color:
+    --accent-color:
+    --primary-white-color: #ffffff;
+}
 body {
-    background-color: #ffffff;
+    background-color: var (--primary-white-color);
     color: #000000;
+    font-family: Roboto,sans-serif; 
 }
 ul {
     list-style: none;
-
+}
+.logo{
+    color: #000000 ;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo:hover{
+    color: var (accent-color);
+}
+.button{
+    font-family: inherit;
 }
 .site-nav .link {
-    color: #212121; ;
+    color: #212121; 
+    font-family: inherit;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
