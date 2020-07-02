@@ -14,6 +14,9 @@ body {
     background-color: var (--primary-white-color);
     color: #000000;
     font-family: Roboto,sans-serif; 
+    letter-spacing: 0.03em;
+    font-size: ;
+    line-height: ;
 }
 ul {
     list-style: none;
@@ -21,37 +24,73 @@ ul {
 .logo{
     color: #000000 ;
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
 }
 .logo:hover{
-    color: var (accent-color);
+    color: var (--accent-color);
 }
 .button{
-    font-family: inherit;
+    color: var( --primary-title-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
+
+
 .site-nav .link {
-    color: #212121; 
-    font-family: inherit;
+    color: var(--accent-color);
+    font-weight: 500px;
+    font: 15px;
+    line-height: 1.2;
+    
+
+
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color:  #2196F3;}
 /* Hero */
+
 .hero-title {
 color:  #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+
 }
+
+
+
 /* Section */
 .section-title{
     color: #212121;
 }
 /* Advantages */
 .advantage-list .title{
-    color: #212121;
-}
+    color: var (--primary-title-color);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
 
+}
+.advantage-list .text {
+color: var(--primary-text-color);
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.7;
+
+}
 
 
 
