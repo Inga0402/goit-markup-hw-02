@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./CSS/normilize.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -12,7 +14,7 @@
         <header>
             <nav>
                 <a href="index.html" class="logo"  lang="en"><span class="logo-accent"> Web </span> Studio</a>
-            <ul class="site-nav">
+            <ul class="menu-nav">
                 <li><a href="index.html" class="link">Студия</a></li>
                 <li><a href="./portfolio.html" class="link">Портфолио</a></li>
                 <li><a href="" class="link">Контакты</a></li>
@@ -21,9 +23,9 @@
             
     <ul class="auth-nav">
            <li><img src="./images/shapka/envelope.svg" alt="конверт">
-               <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+               <a href="mailto:info@devstudio.com" class="auth-nav-text" class="link">info@devstudio.com</a></li>
            <li><img src="./images/shapka/smartphone.svg" alt="смартфон">
-               <a href="tel:+380961111111">+38 096 111 11 11</a></li>
+               <a href="tel:+380961111111" class="auth-nav-text" class="link">+38 096 111 11 11</a></li>
         </ul>
     
         </header>
@@ -42,82 +44,84 @@
          </ul>
          <ul class="portfolio">
              <li>
+                 <a href="">
                <img src="./images/projects/project_technokryak.jpg" alt="фото людей" width="370" height="294">
                <!-- <a href="" aria-label="Ссылка на Технокряк">Технокряк</a> -->
-               <h2 class="portfolio-title">Технокряк</h2>
-               <p class="portfolio-text">Веб-сайт</p>
-               <p> Технокряк это современная площадка распространения коронавируса. 
+               <h2 class="title">Технокряк</h2>
+               <p class="text">Веб-сайт</p>
+               <p hidden> Технокряк это современная площадка распространения коронавируса. 
                    Компании используют эту платформу для цифрового шпионажа 
                    и атак на защищённые сервера конкурентов</p>
+                </a>
            </li>
            <li>
                <img src="./images/projects/project_poster_neworlean.jpg" alt="фото баскетболисты" width="370" height="294">
-               <h2 class="portfolio-title">Постер <span lang="en">Orlean vs Golden Star</span> </h2>
-               <p class="portfolio-text">Дизайн</p>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+               <h2 class="title">Постер <span lang="en">Orlean vs Golden Star</span> </h2>
+               <p class="text">Дизайн</p>
+               <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                    Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                    pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                    maiores laborum minima esse exercitationem.</p>
             </li>
            <li>
                <img src="./images/projects/project_restourant_seafood.jpg" alt="лого ресторана" width="370" height="294" >
-               <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
-               <p class="portfolio-text">Приложение</p>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+               <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
+               <p class="text">Приложение</p>
+               <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                 pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                 maiores laborum minima esse exercitationem.</p>
            </li>
            <li>
                 <img src="./images/projects/project_prime.jpg" alt="лого ресторана" width="370" height="294" >
-                <h2 class="portfolio-title">Проект <span lang="en">Prime</span> </h2>
-                <p class="portfolio-text">Маркетинг</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                <h2 class="title">Проект <span lang="en">Prime</span> </h2>
+                <p class="text">Маркетинг</p>
+                <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                     pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                     maiores laborum minima esse exercitationem.</p>
            </li>
            <li>
                 <img src="./images/projects/project_boxes.jpg" alt="коробки" width="370" height="294" >
-                <h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
-                <p class="portfolio-text">Приложение</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                <h2 class="title">Проект <span lang="en">Boxes</span></h2>
+                <p class="text">Приложение</p>
+                <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                     pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                     maiores laborum minima esse exercitationem.</p>
            </li>
            <li>
                 <img src="./images/projects/project_website_inspiration.jpg" alt="монитор" width="370" height="294" >
-                <h2 class="portfolio-title"> <span lang="en">Insparation has no border</span></h2>
-                <p class="portfolio-text">Веб-сай</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                <h2 class="title"> <span lang="en">Insparation has no border</span></h2>
+                <p class="text">Веб-сайт</p>
+                <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                     pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                     maiores laborum minima esse exercitationem.</p>
            </li>
            <li>
                 <img src="./images/projects/project_limited_edition.jpg" alt="журнал" width="370" height="294" >
-                <h2 class="portfolio-title">Издание <span lang="en">Limited Idition</span></h2>
-                <p class="portfolio-text">Дизайн</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                <h2 class="title">Издание <span lang="en">Limited Idition</span></h2>
+                <p class="text">Дизайн</p>
+                <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                     pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                     maiores laborum minima esse exercitationem.</p>
            </li>
            <li> 
             <img src="./images/projects/project_lab.jpg" alt="лого" width="370" height="294" >
-            <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
-            <p class="portfolio-text">Маркетинг</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            <h2 class="title">Проект <span lang="en">LAB</span></h2>
+            <p class="text">Маркетинг</p>
+            <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                 pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                 maiores laborum minima esse exercitationem.</p>
            </li>
            <li>
             <img src="./images/projects/project_growing_business.jpg" alt="ноутбук" width="370" height="294" >
-            <h2 class="portfolio-title"> <span lang="en">Growing Business</span></h2>
-            <p class="portfolio-text">Приложение</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            <h2 class="title"> <span lang="en">Growing Business</span></h2>
+            <p class="text">Приложение</p>
+            <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
                 pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
                 maiores laborum minima esse exercitationem.</p>

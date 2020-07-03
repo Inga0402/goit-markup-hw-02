@@ -11,7 +11,7 @@
     
    
 body {
-    background-color: var (--primary-white-color);
+    background-color: var(--primary-white-color);
     color: #000000;
     font-family: Roboto,sans-serif; 
     letter-spacing: 0.03em;
@@ -37,41 +37,56 @@ ul {
     background-color: var(--primary-text-color);
 }
 .logo:hover{
-    color: var (--accent-color);
+    color: var(--accent-color);
 }
 .button{
-    color: var( --primary-title-color);
+    color: var(--primary-title-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-
-.site-nav .link {
-    color: var(--accent-color);
+.menu-nav .link {
+    color: var(--primary-title-color);
     font-weight: 500px;
-    font: 15px;
+    font-size: 15px;
     line-height: 1.2;
     
-
-
 }
-.site-nav .link:hover, 
-.site-nav .link:focus {
-    color:  #2196F3;}
+.link {
+    text-decoration: none;
+}
+.menu-nav .link:hover, 
+.menu-nav .link:focus {
+    color: var(--accent-color)
+}
 
+.auth-nav{
+color: var(--accent-color);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.auth-nav-text{
+    color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
     /* Hero */
 
 .hero-title {
-color: var(--primary-white-color) ;
-background-color: var(--accent-color);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-
+    color: var(--primary-white-color) ;
+    background-color: var(--accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 
 
@@ -90,15 +105,26 @@ text-align: center;
 
 }
 .advantage-list .text {
-color: var(--primary-text-color);
-font-family: Roboto;
-font-size: 14px;
-line-height: 1.7;
-
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
+.potfolio .title {
+    color: var(--primary-title-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
 
-
+.portfolio .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
 /* цвета web color: #2196F3; studio #000000;*/
 /* цвет основного текста #000000 */
 /* эффективные решения,  цвет color: #FFFFFF; */
