@@ -1,5 +1,5 @@
 :root {
-    --main-font: Roboto;
+    --main-font: "Roboto", sans-serif;
     --primary-text-color:#757575;
     --primary-title-color:#212121;
     --accent-color:#2196F3;
@@ -69,19 +69,17 @@ ul {
     color: var(--accent-color)
 }
 
-.auth-nav{
-color: var(--accent-color);
+.auth-nav {
+color: var(--primary-text-color);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
-.auth-nav-text{
-    color: var(--primary-text-color);
-}
-.auth-nav-text .link:hover,
-.auth-nav-text .link:focus{
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
     color: var(--accent-color);
 }
     /* Hero */
@@ -142,3 +140,4 @@ letter-spacing: 0.02em;
 /* заголовки цвет color: #212121; */
 /* вторчный фон наша команда background: #F5F4FA; */
 /* подвал цвет background: #2F303A; */
+/* Roboto 400 500 700  Raleway 700*/
