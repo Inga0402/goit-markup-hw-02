@@ -14,10 +14,10 @@
 body {
     background-color: #E5E5E5;
     color: #000000;
-    font-family: Roboto,sans-serif; 
-    letter-spacing: 0.03em;
-    font-size: 26;
+    font-family: "Roboto",sans-serif; 
+    font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 ul {
@@ -25,7 +25,7 @@ ul {
 }
 .logo{
     color: #000000 ;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -34,9 +34,9 @@ ul {
     color: var(--accent-color);
 }
 /* Logo footer */
-.logo-accents{
+.logo-footer{
     color: var(--primary-white-color);
-    background-color: var(--primary-text-color);
+    
 }
 .logo:hover{
     color: var(--accent-color);
@@ -45,7 +45,7 @@ ul {
 .menu-nav .link {
     color: var(--primary-title-color);
     font-weight: 500px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.2;
 }
 
@@ -84,10 +84,9 @@ ul {
     .button{
         color: var(--primary-title-color);
         font-weight: 500;
-        font-size: 16px;
         line-height: 1.62;
         text-align: center;
-        letter-spacing: 0.03em;
+    
      }
 
     .modal-btn:hover,
@@ -104,7 +103,7 @@ ul {
 
     .hero-title {
     color: var(--primary-white-color) ;
-    background-color: var(--accent-color);
+    background: rgba(47, 48, 58, 0.8);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -131,29 +130,33 @@ ul {
     font-size: 14px;
     line-height: 1.7;
 }
+/* We-are-making */
+.section-title-item{
+    color: var(--primary-white-color);
+    background: rgba(47, 48, 58, 0.8);
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    
+
+}
 /* Our Teams */
 .title-team-name {
     color: var(--primary-title-color);
     font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+    line-height: 1.18;
+    text-align: center;
+
 }
 .title-team-item{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
+    
 }
 
-
-/* Clients */
-    .clients-item .link:hover,
-    .clients-item .link:focus{
-    color: var(--accent-color);
-}
+    /* Примеры работ */
 .potfolio .title {
     color: var(--primary-title-color);
     font-weight: bold;
@@ -165,29 +168,33 @@ letter-spacing: 0.03em;
 .portfolio .text {
     color: var(--primary-text-color);
     font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
+    line-height: 1.87; 
 }
 
-
 /* Address footer */
-.address{
+.address-footer {
     color: var(--primary-white-color);
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .title-social {
     color: var(--primary-white-color);
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
+    
 }
-.social-links-item {
+.social-links-list .social-links-item {
 color: var(--primary-white-color);
 }
-color
+
+.social-links-item:hover,
+.social-links-item:focus{
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+
+
 
 /* цвета web color: #2196F3; studio #000000;*/
 /* цвет основного текста #000000 */
